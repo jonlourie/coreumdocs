@@ -1,0 +1,336 @@
+.childNodesChild {
+  height: 18.3px;
+  width: 15.6px;
+  position: relative;
+  min-height: 18px;
+}
+.coreumIcon {
+  align-self: stretch;
+  height: 13.7px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.isolatedNode {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 2.100000000000364px;
+}
+.docsIcon {
+  width: 36.2px;
+  height: 12.2px;
+  position: relative;
+}
+.childNodes,
+.descendantNodes {
+  display: flex;
+  justify-content: flex-start;
+}
+.descendantNodes {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 0 2.0000000000009095px;
+}
+.childNodes {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 5.299999999999272px;
+}
+.ancestorOnceRemovedNodes,
+.siblingNodes {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.siblingNodes {
+  width: 133.3px;
+  padding: 10.800000000000182px 0 0;
+  box-sizing: border-box;
+}
+.ancestorOnceRemovedNodes {
+  padding: var(--padding-11xs) 0 0;
+}
+.divider {
+  width: 1px;
+  height: 24px;
+  position: relative;
+  border-right: 1px solid var(--shades-dark-1);
+  box-sizing: border-box;
+}
+.nephewNodes {
+  height: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0 0;
+  box-sizing: border-box;
+}
+.githubMark1Icon {
+  width: 32px;
+  height: 32px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.nephewNodes1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+}
+.xIcon {
+  width: 32px;
+  height: 32px;
+  position: relative;
+}
+.nephewNodes2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+}
+.igIcon {
+  width: 32px;
+  height: 32px;
+  position: relative;
+}
+.nephewNodes3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+}
+.telegramIcon {
+  width: 32px;
+  height: 32px;
+  position: relative;
+}
+.nephewNodes4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+}
+.discordIcon {
+  width: 32px;
+  height: 32px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.nephewNodes5 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+}
+.youtubeIcon {
+  width: 32px;
+  height: 32px;
+  position: relative;
+  object-fit: cover;
+}
+.nephewNodes6 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+}
+.divider1 {
+  width: 1px;
+  height: 24px;
+  position: relative;
+  border-right: 1px solid var(--shades-dark-1);
+  box-sizing: border-box;
+}
+.nephewNodes7 {
+  height: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0 0;
+  box-sizing: border-box;
+}
+.iconsearch,
+.search1 {
+  height: 20px;
+  position: relative;
+}
+.iconsearch {
+  width: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 20px;
+}
+.search1 {
+  width: 44px;
+  border: 0;
+  outline: 0;
+  font-family: var(--overline-footer);
+  font-size: var(--regular-description-size);
+  background-color: transparent;
+  letter-spacing: -0.01em;
+  line-height: 20px;
+  color: var(--shades-carbon);
+  text-align: left;
+  display: inline-block;
+  padding: 0;
+}
+.divider2,
+.search {
+  box-sizing: border-box;
+}
+.search {
+  flex: 1;
+  border-radius: var(--br-5xs);
+  background-color: var(--shades-dark-1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-base);
+  gap: var(--gap-3xs);
+  min-width: 64px;
+}
+.divider2 {
+  width: 1px;
+  height: 24px;
+  position: relative;
+  border-right: 1px solid var(--shades-dark-1);
+}
+.auntNodes,
+.nephewNodes8 {
+  display: flex;
+  align-items: flex-start;
+}
+.nephewNodes8 {
+  height: 32px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0 0;
+  box-sizing: border-box;
+}
+.auntNodes {
+  flex: 1;
+  flex-direction: row;
+  justify-content: center;
+  gap: var(--gap-xs);
+  max-width: 100%;
+}
+.iconsun {
+  height: 16px;
+  width: 16px;
+  position: relative;
+}
+.lightMode {
+  height: 32px;
+  width: 32px;
+  border-radius: var(--br-5xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs);
+  box-sizing: border-box;
+}
+.iconmoon {
+  height: 16px;
+  width: 16px;
+  position: relative;
+}
+.darkMode {
+  border-radius: var(--br-7xs);
+  background: linear-gradient(180deg, #25d695, #046c45);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--padding-5xs);
+}
+.darkMode,
+.modeToggle,
+.uncleNodes {
+  justify-content: flex-start;
+}
+.modeToggle {
+  border-radius: var(--br-5xs);
+  background-color: var(--shades-dark-1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--padding-9xs);
+}
+.uncleNodes {
+  width: 679px;
+  gap: var(--gap-xs);
+}
+.leafNode,
+.parentNode,
+.uncleNodes {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.parentNode {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.leafNode {
+  justify-content: flex-start;
+  padding: 0 var(--padding-5xl);
+}
+.divider3,
+.leafNode,
+.navBar {
+  align-self: stretch;
+  box-sizing: border-box;
+}
+.divider3 {
+  height: 2px;
+  position: relative;
+  border-top: 1.5px solid var(--shades-dark-1);
+}
+.navBar {
+  height: 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) 0 0;
+  gap: var(--gap-xs);
+  max-width: 100%;
+}
+@media screen and (max-width: 1050px) {
+  .parentNode {
+    flex-wrap: wrap;
+  }
+  .navBar {
+    height: auto;
+  }
+}
+@media screen and (max-width: 750px) {
+  .auntNodes {
+    min-width: 100%;
+  }
+  .auntNodes,
+  .uncleNodes {
+    flex-wrap: wrap;
+  }
+}

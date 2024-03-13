@@ -1,0 +1,452 @@
+.apiList {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  line-height: 40px;
+  font-weight: 500;
+  font-family: inherit;
+  background: linear-gradient(180deg, #fff, #666);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.errorHandlerIcon {
+  height: 36px;
+  width: 36px;
+  position: relative;
+  border-radius: var(--br-5xl);
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.coreum {
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 28px;
+}
+.copy {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.card1,
+.card2,
+.card3,
+.card4,
+.card5 {
+  width: 402px;
+  border: 0;
+  outline: 0;
+  background-color: var(--shades-pitch);
+  height: 72px;
+  border-radius: var(--br-xs);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xl);
+  box-sizing: border-box;
+  font-family: var(--regular-label);
+  font-weight: 500;
+  font-size: var(--regular-label-size);
+  color: var(--primary-dim);
+  max-width: 100%;
+}
+.card,
+.cards,
+.introduction {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.cards {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px 8px;
+  min-height: 240px;
+}
+.card,
+.introduction {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.card {
+  border-radius: var(--br-xs);
+  gap: var(--gap-5xl);
+  font-size: var(--regular-label-size);
+  font-family: var(--overline-footer);
+}
+.introduction {
+  gap: var(--gap-21xl);
+  font-size: var(--sub-titles-subtitle-1-size);
+  font-family: var(--regular-label);
+}
+.cliLogoIcon {
+  height: 36px;
+  width: 36px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.amino {
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 28px;
+}
+.copy1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.aminoproto,
+.cards1 {
+  position: relative;
+  font-weight: 500;
+}
+.cards1 {
+  outline: 0;
+  padding: var(--padding-5xl);
+  font-family: var(--regular-label);
+  font-size: var(--regular-label-size);
+  color: var(--primary-dim);
+  border: 0;
+  width: 100%;
+  height: 100%;
+  background: 0 0;
+  z-index: 3;
+}
+.aminoproto {
+  width: 92px;
+  height: 24px;
+  letter-spacing: -0.02em;
+  line-height: 24px;
+  display: inline-block;
+}
+.outputHandler {
+  width: 354px;
+  height: 24px;
+  flex-direction: column;
+}
+.card6,
+.card7,
+.outputHandler,
+.wrapperCards {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.card7 {
+  width: 49%;
+  border-radius: var(--br-xs);
+  background-color: var(--shades-pitch);
+  flex-direction: column;
+  padding: var(--padding-5xl);
+  box-sizing: border-box;
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+}
+.card6,
+.wrapperCards {
+  align-self: stretch;
+}
+.wrapperCards {
+  position: relative;
+  width: 100%;
+  border: 0;
+  background-color: transparent;
+  height: 72px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  min-width: 250px;
+  color: var(--primary-dim);
+  font-family: var(--regular-label);
+}
+.card6 {
+  border-radius: var(--br-xs);
+  flex-direction: column;
+  gap: var(--gap-5xl);
+}
+.cosmosLogoIcon {
+  height: 36px;
+  width: 36px;
+  position: relative;
+  border-radius: var(--br-13xl);
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.cosmos {
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 28px;
+}
+.copy2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.card10,
+.card11,
+.card12,
+.card13,
+.card14,
+.card15,
+.card16,
+.card17,
+.card18,
+.card19,
+.card20,
+.card21,
+.card22,
+.card23,
+.card24,
+.card25,
+.card26,
+.card27,
+.card28,
+.card29,
+.card30,
+.card31,
+.card32,
+.card33,
+.card34,
+.card35,
+.card9 {
+  width: 402px;
+  border: 0;
+  outline: 0;
+  background-color: var(--shades-pitch);
+  height: 72px;
+  border-radius: var(--br-xs);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xl);
+  box-sizing: border-box;
+  font-family: var(--regular-label);
+  font-weight: 500;
+  font-size: var(--regular-label-size);
+  color: var(--primary-dim);
+  max-width: 100%;
+}
+.card8,
+.cards2 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.cards2 {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px 8px;
+  min-height: 1164px;
+}
+.card8 {
+  border-radius: var(--br-xs);
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.copyChild {
+  height: 36px;
+  width: 36px;
+  position: relative;
+}
+.tendermint {
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 28px;
+}
+.copy3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.card37,
+.card38,
+.card39,
+.card40,
+.card41,
+.card42 {
+  width: 402px;
+  border: 0;
+  outline: 0;
+  background-color: var(--shades-pitch);
+  height: 72px;
+  border-radius: var(--br-xs);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xl);
+  box-sizing: border-box;
+  font-family: var(--regular-label);
+  font-weight: 500;
+  font-size: var(--regular-label-size);
+  color: var(--primary-dim);
+  max-width: 100%;
+}
+.card36,
+.cards3 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.cards3 {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px 8px;
+  min-height: 240px;
+}
+.card36 {
+  border-radius: var(--br-xs);
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.copyItem {
+  height: 36px;
+  width: 36px;
+  position: relative;
+  object-fit: cover;
+}
+.cosmwasm {
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 28px;
+}
+.copy4 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.wasm {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 24px;
+  font-weight: 500;
+}
+.card43,
+.card44,
+.cards4,
+.content,
+.wasmWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.wasmWrapper {
+  align-self: stretch;
+  flex-direction: column;
+}
+.card43,
+.card44,
+.cards4,
+.content {
+  max-width: 100%;
+}
+.card44 {
+  width: 402px;
+  border-radius: var(--br-xs);
+  background-color: var(--shades-pitch);
+  flex-direction: column;
+  padding: var(--padding-5xl);
+  box-sizing: border-box;
+}
+.card43,
+.cards4,
+.content {
+  align-self: stretch;
+}
+.cards4 {
+  flex-direction: row;
+  flex-wrap: wrap;
+  color: var(--primary-dim);
+  font-family: var(--regular-label);
+}
+.card43,
+.content {
+  flex-direction: column;
+}
+.card43 {
+  border-radius: var(--br-xs);
+  gap: var(--gap-5xl);
+}
+.content {
+  padding: var(--padding-5xl) var(--padding-21xl) var(--padding-61xl);
+  box-sizing: border-box;
+  gap: var(--gap-61xl);
+  text-align: left;
+  font-size: var(--regular-label-size);
+  color: var(--shades-light);
+  font-family: var(--overline-footer);
+}
+@media screen and (max-width: 1200px) {
+  .content {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-15xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .apiList {
+    font-size: var(--font-size-7xl);
+    line-height: 32px;
+  }
+  .content {
+    gap: 40px 80px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .content {
+    padding-bottom: var(--padding-3xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .apiList {
+    font-size: var(--font-size-lgi);
+    line-height: 24px;
+  }
+  .copy {
+    flex-wrap: wrap;
+  }
+  .introduction {
+    gap: 20px 40px;
+  }
+  .copy1,
+  .copy2,
+  .copy3,
+  .copy4 {
+    flex-wrap: wrap;
+  }
+  .content {
+    gap: 20px 80px;
+  }
+}

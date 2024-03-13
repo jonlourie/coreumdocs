@@ -1,0 +1,70 @@
+.cliLogoIcon {
+  height: 36px;
+  width: 36px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.cli {
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 28px;
+}
+.copy {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.card,
+.card1,
+.card2,
+.card3,
+.card4,
+.cards {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.card1,
+.card2,
+.card3,
+.card4 {
+  width: 402px;
+  border: 0;
+  outline: 0;
+  background-color: var(--shades-pitch);
+  height: 72px;
+  border-radius: var(--br-xs);
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-5xl);
+  box-sizing: border-box;
+  font-family: var(--regular-label);
+  font-weight: 500;
+  font-size: var(--regular-label-size);
+  color: var(--primary-dim);
+}
+.card,
+.cards {
+  align-self: stretch;
+}
+.cards {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px 8px;
+  min-height: 156px;
+}
+.card {
+  border-radius: var(--br-xs);
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  text-align: left;
+  font-size: var(--regular-label-size);
+  color: var(--shades-light);
+  font-family: var(--overline-footer);
+}

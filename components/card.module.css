@@ -1,0 +1,44 @@
+.metaverseApplicationsIcon {
+  width: 48px;
+  height: 48px;
+  position: relative;
+}
+.title {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 24px;
+  font-weight: 500;
+}
+.description {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--regular-description-size);
+  letter-spacing: -0.01em;
+  line-height: 21px;
+  font-family: var(--overline-footer);
+  color: var(--shades-carbon);
+}
+.card,
+.titleParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.titleParent {
+  align-self: stretch;
+  gap: var(--gap-5xs);
+}
+.card {
+  flex: 0.9114;
+  border-radius: var(--br-base);
+  background-color: var(--shades-pitch);
+  padding: var(--padding-5xl) var(--padding-5xl) var(--padding-13xl);
+  box-sizing: border-box;
+  gap: var(--gap-5xl);
+  min-width: 118px;
+  text-align: left;
+  font-size: var(--regular-label-size);
+  color: var(--primary-dim);
+  font-family: var(--regular-label);
+}

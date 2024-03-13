@@ -1,0 +1,25 @@
+.label {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.iconlink {
+  width: 24px;
+  position: relative;
+  height: 24px;
+}
+.typelinkStatedefault {
+  border-radius: var(--br-xs);
+  backdrop-filter: blur(10px);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  text-align: left;
+  font-size: var(--regular-label-size);
+  color: var(--primary-off-white);
+  font-family: var(--overline-footer);
+}

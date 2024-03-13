@@ -1,0 +1,77 @@
+.label {
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 20px;
+  font-weight: 500;
+}
+.iconarrow {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  min-height: 20px;
+}
+.expandedMenu1,
+.tab1,
+.tab2 {
+  align-self: stretch;
+  display: flex;
+}
+.tab1 {
+  border-radius: var(--br-5xs);
+  background-color: var(--dark-1);
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-5xs) var(--padding-5xs) var(--padding-5xs)
+    var(--padding-xs);
+  gap: var(--gap-xl);
+}
+.expandedMenu1,
+.tab2 {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.expandedMenu1 {
+  border-left: 1px solid var(--shades-dark-1);
+  align-items: flex-start;
+  padding: 0 0 0 var(--padding-6xs);
+}
+.tab2 {
+  align-items: flex-end;
+  padding: var(--padding-5xs) 0 var(--padding-5xs) var(--padding-base);
+}
+.expandedMenu {
+  align-self: stretch;
+  border-left: 1px solid var(--shades-dark-1);
+  align-items: flex-start;
+  padding: 0 0 0 var(--padding-6xs);
+}
+.expandedMenu,
+.sidebarMenu,
+.tab {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.tab {
+  align-self: stretch;
+  align-items: flex-end;
+  padding: var(--padding-5xs) 0 var(--padding-5xs) var(--padding-base);
+}
+.sidebarMenu {
+  width: 276px;
+  overflow: hidden;
+  flex-shrink: 0;
+  align-items: flex-start;
+  padding: var(--padding-5xl) var(--padding-base) var(--padding-621xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--regular-description-size);
+  color: var(--primary-off-white);
+  font-family: var(--regular-label);
+}
+@media screen and (max-width: 1050px) {
+  .sidebarMenu {
+    display: none;
+  }
+}

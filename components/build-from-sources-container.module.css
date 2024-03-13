@@ -1,0 +1,76 @@
+.label {
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 20px;
+}
+.tab {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0;
+}
+.label1 {
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 20px;
+}
+.tab2 {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0;
+}
+.label2 {
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 20px;
+}
+.tab3 {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0;
+}
+.expandedMenu,
+.sidebarMenu,
+.tab1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.expandedMenu {
+  align-self: stretch;
+  border-left: 1px solid var(--shades-dark-1);
+  align-items: flex-start;
+  padding: 0 0 0 var(--padding-base);
+}
+.sidebarMenu,
+.tab1 {
+  align-items: flex-end;
+}
+.tab1 {
+  align-self: stretch;
+  padding: 0 0 0 var(--padding-5xs);
+  color: var(--shades-light);
+}
+.sidebarMenu {
+  width: 272px;
+  padding: var(--padding-5xl) var(--padding-base);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--regular-description-size);
+  color: var(--primary-green);
+  font-family: var(--regular-label);
+}

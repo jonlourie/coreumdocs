@@ -1,0 +1,358 @@
+.header {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 30px;
+  font-weight: 500;
+}
+.noteThisOption {
+  margin: 0;
+}
+.areSetUp,
+.networkVariables {
+  font-family: var(--overline-footer);
+}
+.networkVariables {
+  font-weight: 600;
+  color: var(--primary-green);
+}
+.areSetUp {
+  color: var(--shades-light);
+}
+.verifyThatNetworkVariables1 {
+  margin-bottom: 0;
+}
+.createAProper {
+  font-family: var(--overline-footer);
+  color: var(--shades-light);
+}
+.verifyThatNetworkVariables {
+  margin: 0;
+  font-size: inherit;
+  padding-left: var(--padding-2xl);
+}
+.copy2,
+.div {
+  position: relative;
+  letter-spacing: -0.01em;
+}
+.copy2 {
+  align-self: stretch;
+  line-height: 28px;
+}
+.div {
+  line-height: 24px;
+}
+.copy3 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base);
+}
+.dividerIcon {
+  align-self: stretch;
+  width: 0;
+  position: relative;
+  max-height: 100%;
+}
+.mkdir {
+  color: var(--primary-yellow);
+}
+.pCoreumHome {
+  color: var(--color-mediumseagreen-200);
+}
+.mkdirPCoreumHomebinContainer {
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 24px;
+}
+.card,
+.copy,
+.copy1,
+.copy4,
+.list {
+  display: flex;
+  justify-content: flex-start;
+}
+.copy4 {
+  flex: 1;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--padding-base);
+  text-align: left;
+  color: var(--primary-dim);
+}
+.card,
+.copy,
+.copy1,
+.list {
+  align-self: stretch;
+}
+.card {
+  border-radius: var(--br-xs);
+  background-color: var(--shades-pitch);
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-xs);
+}
+.copy,
+.copy1,
+.list {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.list {
+  text-align: center;
+  font-size: var(--regular-description-size);
+  color: var(--shades-carbon);
+  font-family: var(--font-fira-code);
+}
+.copy,
+.copy1 {
+  gap: var(--gap-5xl);
+  font-size: var(--regular-label-size);
+  color: var(--shades-light);
+  font-family: var(--overline-footer);
+}
+.copy {
+  gap: var(--gap-xs);
+  font-size: var(--sub-titles-sub-title-2-size);
+  color: var(--primary-off-white);
+  font-family: var(--regular-label);
+}
+.installTheRequired {
+  margin-bottom: 0;
+}
+.installTheRequiredUtilCur {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-2xl);
+}
+.copy6 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 28px;
+}
+.blankLine,
+.p,
+.p1 {
+  margin: 0;
+}
+.div1 {
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 24px;
+}
+.copy7 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base);
+}
+.dividerIcon1 {
+  align-self: stretch;
+  width: 0;
+  position: relative;
+  max-height: 100%;
+}
+.curl {
+  color: var(--primary-yellow);
+}
+.lo {
+  color: var(--color-mediumseagreen-200);
+}
+.span {
+  color: var(--primary-yellow);
+}
+.coreumVersioncoreumBinary {
+  color: var(--color-mediumseagreen-200);
+}
+.curlLoHttpsgithubcomco {
+  margin: 0;
+}
+.mv {
+  color: var(--primary-yellow);
+}
+.bincored {
+  color: var(--primary-dim);
+}
+.mvCoreumBinaryNameCoreum {
+  margin: 0;
+  color: var(--color-mediumseagreen-200);
+}
+.curlLoHttpsgithubcomcoContainer {
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 24px;
+}
+.card1,
+.copy5,
+.copy8,
+.list1 {
+  display: flex;
+  justify-content: flex-start;
+}
+.copy8 {
+  flex: 1;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--padding-base);
+  text-align: left;
+  color: var(--primary-dim);
+}
+.card1,
+.copy5,
+.list1 {
+  align-self: stretch;
+}
+.card1 {
+  border-radius: var(--br-xs);
+  background-color: var(--shades-pitch);
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-xs);
+}
+.copy5,
+.list1 {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.list1 {
+  text-align: center;
+  font-size: var(--regular-description-size);
+  color: var(--shades-carbon);
+  font-family: var(--font-fira-code);
+}
+.copy5 {
+  gap: var(--gap-5xl);
+}
+.ifYouAreGetting404ErrorA {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-2xl);
+}
+.copy10 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 28px;
+}
+.blankLine1,
+.p2,
+.p3 {
+  margin: 0;
+}
+.div2 {
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 24px;
+}
+.copy11 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base);
+}
+.dividerIcon2 {
+  align-self: stretch;
+  width: 0;
+  position: relative;
+  max-height: 100%;
+}
+.curl1 {
+  color: var(--primary-yellow);
+}
+.lo1 {
+  color: var(--color-mediumseagreen-200);
+}
+.span1 {
+  color: var(--primary-yellow);
+}
+.coreumVersioncoreumBinary1 {
+  color: var(--color-mediumseagreen-200);
+}
+.curlLoHttpsgithubcomco1 {
+  margin: 0;
+}
+.mv1 {
+  color: var(--primary-yellow);
+}
+.bincored1 {
+  color: var(--primary-dim);
+}
+.mvCoreumBinaryNameCoreum1 {
+  margin: 0;
+  color: var(--color-mediumseagreen-200);
+}
+.curlLoHttpsgithubcomcoContainer1 {
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 24px;
+}
+.card2,
+.copy12,
+.list2 {
+  display: flex;
+  justify-content: flex-start;
+}
+.copy12 {
+  flex: 1;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--padding-base);
+  text-align: left;
+  color: var(--primary-dim);
+}
+.card2,
+.list2 {
+  align-self: stretch;
+}
+.card2 {
+  border-radius: var(--br-xs);
+  background-color: var(--shades-pitch);
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-xs);
+}
+.list2 {
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: center;
+  font-size: var(--regular-description-size);
+  color: var(--shades-carbon);
+  font-family: var(--font-fira-code);
+}
+.releasesopenInNew {
+  color: inherit;
+}
+.copy13 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 28px;
+}
+.copy9,
+.section {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.section {
+  gap: var(--gap-21xl);
+  text-align: left;
+  font-size: var(--regular-label-size);
+  color: var(--shades-light);
+  font-family: var(--overline-footer);
+}

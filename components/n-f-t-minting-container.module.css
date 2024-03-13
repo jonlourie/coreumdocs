@@ -1,0 +1,117 @@
+.copy2,
+.header {
+  align-self: stretch;
+  position: relative;
+}
+.header {
+  letter-spacing: -0.02em;
+  line-height: 30px;
+  font-weight: 500;
+}
+.copy2 {
+  letter-spacing: -0.01em;
+  line-height: 28px;
+}
+.p,
+.p1,
+.p2,
+.p3,
+.p4,
+.p5 {
+  margin: 0;
+}
+.div {
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 24px;
+}
+.copy3 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base);
+}
+.dividerIcon {
+  align-self: stretch;
+  width: 0;
+  position: relative;
+  max-height: 100%;
+}
+.help {
+  color: var(--color-mediumseagreen-200);
+}
+.coredTxStakingHelp {
+  margin: 0;
+  color: var(--primary-dim);
+}
+.createValidatorCreateNew {
+  margin: 0;
+}
+.delegate,
+.editValidator,
+.redelegate,
+.unbond {
+  margin: 0;
+  white-space: pre-wrap;
+}
+.coredTxStakingContainer {
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 24px;
+}
+.card,
+.copy,
+.copy1,
+.copy4,
+.list {
+  display: flex;
+  justify-content: flex-start;
+}
+.copy4 {
+  flex: 1;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--padding-base);
+  text-align: left;
+}
+.card,
+.copy,
+.copy1,
+.list {
+  align-self: stretch;
+}
+.card {
+  border-radius: var(--br-xs);
+  background-color: var(--shades-pitch);
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-xs);
+}
+.copy,
+.copy1,
+.list {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.list {
+  text-align: center;
+  font-size: var(--regular-description-size);
+  color: var(--shades-carbon);
+  font-family: var(--font-fira-code);
+}
+.copy,
+.copy1 {
+  gap: var(--gap-5xl);
+  font-size: var(--regular-label-size);
+  color: var(--shades-light);
+  font-family: var(--overline-footer);
+}
+.copy {
+  gap: var(--gap-xs);
+  text-align: left;
+  font-size: var(--sub-titles-sub-title-2-size);
+  color: var(--primary-off-white);
+  font-family: var(--regular-label);
+}

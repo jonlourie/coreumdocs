@@ -1,0 +1,25 @@
+.expandedMenu,
+.sidebarMenu,
+.tab {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.expandedMenu {
+  width: 228px;
+  border-left: 1px solid var(--shades-dark-1);
+  box-sizing: border-box;
+  align-items: flex-start;
+  padding: 0 0 0 var(--padding-5xs);
+}
+.sidebarMenu,
+.tab {
+  align-items: flex-end;
+}
+.tab {
+  align-self: stretch;
+  padding: var(--padding-5xs) 0 var(--padding-5xs) var(--padding-base);
+}
+.sidebarMenu {
+  padding: var(--padding-5xl) var(--padding-base);
+}

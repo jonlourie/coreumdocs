@@ -1,0 +1,381 @@
+.lastUpdated12142023639 {
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 18px;
+}
+.badge {
+  border-radius: var(--br-11xl);
+  background: linear-gradient(
+    -89.25deg,
+    rgba(94, 103, 115, 0.2),
+    rgba(94, 103, 115, 0.02)
+  );
+  backdrop-filter: blur(10px);
+  border: 1px solid var(--color-dimgray-100);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-9xs) var(--padding-mini);
+  white-space: nowrap;
+}
+.superLedger,
+.theWorldsFirst {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.theWorldsFirst {
+  background: linear-gradient(180deg, #fff, #666);
+}
+.superLedger {
+  background: linear-gradient(180deg, #25d695, #046c45);
+}
+.title {
+  margin: 0;
+  width: 683px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  line-height: 80px;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.titleBadge {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.copy,
+.copy1,
+.titleBadge {
+  align-self: stretch;
+}
+.copy1 {
+  position: relative;
+  font-size: var(--font-size-xl);
+  letter-spacing: -0.01em;
+  line-height: 35px;
+  font-family: var(--overline-footer);
+  color: var(--primary-dim);
+}
+.copy {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+  font-size: var(--headlines-headline-2-size);
+  color: var(--primary-off-white);
+  font-family: var(--regular-label);
+}
+.label {
+  position: relative;
+  font-size: var(--regular-description-size);
+  letter-spacing: -0.02em;
+  line-height: 20px;
+  font-weight: 600;
+  font-family: var(--overline-footer);
+  color: var(--shades-dark-3);
+  text-align: left;
+  white-space: nowrap;
+}
+.iconlink {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  min-height: 20px;
+}
+.button1 {
+  border-radius: var(--br-xs);
+  backdrop-filter: blur(10px);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+}
+.button,
+.headline {
+  display: flex;
+  flex-direction: column;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-5xs) var(--padding-xl) var(--padding-5xs)
+    var(--padding-5xl);
+  background-color: transparent;
+  border-radius: var(--br-5xs);
+  background: linear-gradient(180deg, #25d695, #046c45);
+  align-items: center;
+  justify-content: center;
+}
+.headline {
+  flex: 1;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl) 0;
+  box-sizing: border-box;
+  gap: var(--gap-13xl);
+  min-width: 478px;
+  max-width: 100%;
+}
+.landingImgIcon {
+  height: 560px;
+  width: 480px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  max-width: 100%;
+}
+.landingSection {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  row-gap: 20px;
+  max-width: 100%;
+  z-index: 1;
+}
+.flare {
+  height: 2px;
+  flex: 1;
+  position: relative;
+  border-top: 1px solid var(--color-mediumseagreen-100);
+  box-sizing: border-box;
+}
+.liquidityProvidersAndMarket1 {
+  width: 247px;
+  height: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-8xs) var(--padding-mini) 0;
+  box-sizing: border-box;
+}
+.decentralizedExchangesIcon {
+  width: 48px;
+  height: 48px;
+  position: relative;
+}
+.title1 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 24px;
+  font-weight: 500;
+}
+.flareLogoFrame {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base) 0 0;
+}
+.flare1 {
+  height: 40px;
+  width: 2px;
+  position: relative;
+  border-right: 1px solid var(--color-mediumseagreen-100);
+  box-sizing: border-box;
+}
+.descriptionTextFrame,
+.stablecoinsEcosystemFrames {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.descriptionTextFrame {
+  align-self: stretch;
+  height: 40px;
+  flex-direction: row;
+  gap: 24.299999999999272px;
+}
+.stablecoinsEcosystemFrames {
+  margin-right: -24.299999999999272px;
+  width: 271.3px;
+  flex-direction: column;
+  gap: var(--gap-5xs);
+}
+.flare2 {
+  width: 2px;
+  height: 40px;
+  position: relative;
+  border-right: 1px solid var(--color-mediumseagreen-100);
+  box-sizing: border-box;
+}
+.cardContainer {
+  height: 92px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-33xl) 0 0;
+  box-sizing: border-box;
+}
+.description {
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 21px;
+}
+.footerContainerBackground {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-base);
+  gap: var(--gap-4xl);
+  font-size: var(--regular-description-size);
+  color: var(--primary-dim);
+  font-family: var(--overline-footer);
+}
+.card,
+.flare3 {
+  box-sizing: border-box;
+}
+.flare3 {
+  width: 240px;
+  height: 2px;
+  position: absolute;
+  margin: 0 !important;
+  right: 22px;
+  bottom: -2px;
+  border-top: 1px solid var(--color-mediumseagreen-100);
+}
+.card {
+  height: 244px;
+  flex: 1;
+  border-radius: var(--br-base);
+  background: linear-gradient(
+    90deg,
+    rgba(69, 69, 69, 0.1),
+    rgba(255, 255, 255, 0.1)
+  );
+  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.16) inset;
+  backdrop-filter: blur(10px);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) var(--padding-4xl) 0 var(--padding-12xs);
+  position: relative;
+  gap: var(--gap-5xs);
+  min-width: 118px;
+  color: var(--primary-off-white);
+}
+.liquidityProvidersAndMarketIcon {
+  width: 48px;
+  height: 48px;
+  position: relative;
+}
+.title2 {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 24px;
+  font-weight: 500;
+}
+.guidesAndUpdates {
+  margin: 0;
+}
+.description1 {
+  align-self: stretch;
+  height: 84px;
+  position: relative;
+  font-size: var(--regular-description-size);
+  letter-spacing: -0.01em;
+  line-height: 21px;
+  font-family: var(--overline-footer);
+  color: var(--shades-carbon);
+  display: inline-block;
+}
+.titleParent {
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.card1,
+.cards,
+.titleParent {
+  display: flex;
+  align-items: flex-start;
+}
+.card1 {
+  flex: 0.9114;
+  border-radius: var(--br-base);
+  background-color: var(--shades-pitch);
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-5xl) var(--padding-5xl) var(--padding-13xl);
+  box-sizing: border-box;
+  gap: var(--gap-5xl);
+  min-width: 118px;
+}
+.cards {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 var(--padding-5xs) 0 0;
+  gap: 12px 9.333333333333334px;
+  z-index: 1;
+  font-size: var(--regular-label-size);
+  color: var(--primary-dim);
+  font-family: var(--regular-label);
+}
+.liquidityProvidersAndMarket {
+  width: 1216px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--overline-footer-size);
+  color: var(--shades-carbon);
+  font-family: var(--overline-footer);
+}
+@media screen and (max-width: 1050px) {
+  .title {
+    font-size: var(--font-size-32xl);
+    line-height: 64px;
+  }
+  .landingImgIcon {
+    flex: 1;
+  }
+  .landingSection {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .headline {
+    gap: 16px 32px;
+    min-width: 100%;
+  }
+  .liquidityProvidersAndMarket {
+    gap: 20px 40px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .title {
+    font-size: var(--font-size-19xl);
+    line-height: 48px;
+  }
+  .copy1 {
+    font-size: var(--regular-label-size);
+    line-height: 28px;
+  }
+}

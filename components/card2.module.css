@@ -1,0 +1,118 @@
+.flare {
+  width: 2px;
+  height: 24px;
+  position: relative;
+  border-right: 1px solid var(--color-mediumseagreen-100);
+}
+.dataStream,
+.flare,
+.flare1 {
+  box-sizing: border-box;
+}
+.dataStream {
+  height: 59px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-16xl) 0 0;
+}
+.flare1 {
+  width: 240px;
+  height: 2px;
+  position: relative;
+  border-top: 1px solid var(--color-mediumseagreen-100);
+}
+.conditionSplitter {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  align-self: stretch;
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xs);
+  box-sizing: border-box;
+  font-family: var(--regular-label);
+  font-weight: 500;
+  font-size: var(--regular-label-size);
+  color: var(--primary-off-white);
+  min-width: 227px;
+}
+.flare2 {
+  height: 2px;
+  width: 240px;
+  position: relative;
+  border-top: 1px solid var(--color-mediumseagreen-100);
+  box-sizing: border-box;
+}
+.dataMatrix,
+.textParser {
+  display: flex;
+  align-items: flex-start;
+}
+.textParser {
+  align-self: stretch;
+  height: 0;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.dataMatrix {
+  height: 71px;
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-4xl-5);
+  min-width: 246px;
+  max-width: 100%;
+}
+.flare3 {
+  width: 2px;
+  height: 24px;
+  position: relative;
+  border-right: 1px solid var(--color-mediumseagreen-100);
+  box-sizing: border-box;
+}
+.card,
+.dateHandler {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.dateHandler {
+  height: 35px;
+  width: -0.3px;
+  flex-direction: column;
+  padding: var(--padding-2xs) 0 0 0;
+}
+.card {
+  width: 402px;
+  margin: 0 !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xs);
+  background: linear-gradient(
+    90deg,
+    rgba(69, 69, 69, 0.1),
+    rgba(255, 255, 255, 0.1)
+  );
+  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.16) inset;
+  backdrop-filter: blur(10px);
+  flex-direction: row;
+  padding: var(--padding-12xs) 0 0 var(--padding-12xs);
+  gap: 11.650000000000093px;
+  max-width: 100%;
+}
+@media screen and (max-width: 450px) {
+  .card {
+    flex-wrap: wrap;
+    padding-right: var(--padding-12xs);
+    padding-bottom: var(--padding-12xs);
+    box-sizing: border-box;
+  }
+}

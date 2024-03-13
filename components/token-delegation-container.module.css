@@ -1,0 +1,141 @@
+.letsDelegateSomeTokens {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-2xl);
+}
+.copy1 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 28px;
+}
+.p,
+.p1,
+.p2,
+.p3,
+.p4,
+.p5 {
+  margin: 0;
+}
+.div {
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 24px;
+}
+.copy2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base);
+  z-index: 0;
+}
+.dividerIcon {
+  align-self: stretch;
+  width: 0;
+  position: relative;
+  max-height: 100%;
+  z-index: 1;
+}
+.coredTxBank {
+  margin: 0;
+  color: var(--primary-dim);
+}
+.createValidatorCreateNew {
+  margin: 0;
+}
+.delegate,
+.editValidator,
+.redelegate,
+.unbond {
+  margin: 0;
+  white-space: pre-wrap;
+}
+.coredTxBankContainer {
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 24px;
+}
+.copy3 {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base);
+  z-index: 2;
+  text-align: left;
+}
+.scrollbarIcon {
+  width: 720px;
+  position: absolute;
+  margin: 0 !important;
+  height: calc(100% - 170px);
+  top: 162px;
+  bottom: 8px;
+  left: 80px;
+  max-height: 100%;
+  object-fit: contain;
+  z-index: 3;
+}
+.card,
+.list {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.card {
+  border-radius: var(--br-xs);
+  background-color: var(--shades-pitch);
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  gap: var(--gap-xs);
+}
+.list {
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: center;
+  font-size: var(--regular-description-size);
+  color: var(--shades-carbon);
+  font-family: var(--font-fira-code);
+}
+.blockExplorer,
+.ifTheOutput {
+  font-family: var(--overline-footer);
+  color: var(--shades-light);
+}
+.blockExplorer {
+  font-weight: 600;
+  color: var(--primary-green);
+}
+.ifTheOutputCodeIs0GetT1 {
+  margin-bottom: 0;
+}
+.ifTheOutputCodeIs0GetT {
+  margin: 0;
+  font-size: inherit;
+  padding-left: var(--padding-2xl);
+}
+.copy,
+.copy4 {
+  align-self: stretch;
+}
+.copy4 {
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 28px;
+}
+.copy {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  text-align: left;
+  font-size: var(--regular-label-size);
+  color: var(--shades-light);
+  font-family: var(--overline-footer);
+}

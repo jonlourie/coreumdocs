@@ -1,0 +1,62 @@
+.label {
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 20px;
+}
+.iconlink {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  min-height: 20px;
+}
+.expandedMenu,
+.sidebarMenu,
+.tab,
+.tab1 {
+  display: flex;
+  justify-content: flex-start;
+}
+.tab1 {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-5xs) var(--padding-23xl) var(--padding-5xs)
+    var(--padding-xs);
+  gap: var(--gap-11xs);
+}
+.expandedMenu,
+.sidebarMenu,
+.tab {
+  flex-direction: column;
+}
+.expandedMenu {
+  align-self: stretch;
+  border-left: 1px solid var(--shades-dark-1);
+  align-items: flex-start;
+  padding: 0 0 0 var(--padding-6xs);
+}
+.sidebarMenu,
+.tab {
+  align-items: flex-end;
+}
+.tab {
+  align-self: stretch;
+  padding: var(--padding-5xs) 0 var(--padding-5xs) var(--padding-base);
+}
+.sidebarMenu {
+  width: 276px;
+  padding: var(--padding-5xl) var(--padding-base);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--regular-description-size);
+  color: var(--shades-light);
+  font-family: var(--regular-label);
+}
+@media screen and (max-width: 750px) {
+  .sidebarMenu {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,40 @@
+.axelarLogoIcon {
+  width: 56px;
+  position: relative;
+  border-radius: var(--br-xs);
+  height: 56px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.axelar {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 22px;
+  font-weight: 500;
+}
+.axelarParent,
+.card {
+  display: flex;
+  justify-content: flex-start;
+}
+.axelarParent {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-5xs);
+}
+.card {
+  width: 402px;
+  border-radius: var(--br-xs);
+  background-color: var(--shades-pitch);
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-5xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--sub-titles-sub-title-4-size);
+  color: var(--primary-dim);
+  font-family: var(--regular-label);
+}

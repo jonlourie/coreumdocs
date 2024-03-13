@@ -1,0 +1,329 @@
+.xFrameChild {
+  height: 18.3px;
+  width: 15.6px;
+  position: relative;
+  min-height: 18px;
+}
+.coreumIcon {
+  align-self: stretch;
+  height: 13.7px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.telegramFrame {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 2.100000000000364px;
+}
+.docsIcon {
+  width: 36.2px;
+  height: 12.2px;
+  position: relative;
+}
+.youtubeFrame {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 0 2.0000000000009095px;
+}
+.githubmarkFrame,
+.sidebarMenu,
+.xFrame,
+.youtubeFrame {
+  display: flex;
+  justify-content: flex-start;
+}
+.xFrame {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 5.2999999999999545px;
+}
+.githubmarkFrame,
+.sidebarMenu {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.githubmarkFrame {
+  width: 133.3px;
+  padding: 10.800000000000182px 0 0;
+  box-sizing: border-box;
+}
+.sidebarMenu {
+  padding: var(--padding-11xs) 0 0;
+}
+.divider {
+  width: 1px;
+  height: 24px;
+  position: relative;
+  border-right: 1px solid var(--shades-dark-1);
+  box-sizing: border-box;
+}
+.modeToggle {
+  height: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0 0;
+  box-sizing: border-box;
+}
+.githubMark1Icon {
+  width: 32px;
+  height: 32px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.modeToggle1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+}
+.xIcon {
+  width: 32px;
+  height: 32px;
+  position: relative;
+}
+.modeToggle2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+}
+.igIcon {
+  width: 32px;
+  height: 32px;
+  position: relative;
+}
+.modeToggle3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+}
+.telegramIcon {
+  width: 32px;
+  height: 32px;
+  position: relative;
+}
+.modeToggle4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+}
+.discordIcon {
+  width: 32px;
+  height: 32px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.modeToggle5 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+}
+.youtubeIcon {
+  width: 32px;
+  height: 32px;
+  position: relative;
+  object-fit: cover;
+}
+.modeToggle6 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+}
+.divider1 {
+  width: 1px;
+  height: 24px;
+  position: relative;
+  border-right: 1px solid var(--shades-dark-1);
+  box-sizing: border-box;
+}
+.modeToggle7 {
+  height: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0 0;
+  box-sizing: border-box;
+}
+.iconsearch,
+.search1 {
+  height: 20px;
+  position: relative;
+}
+.iconsearch {
+  width: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 20px;
+}
+.search1 {
+  width: 44px;
+  border: 0;
+  outline: 0;
+  font-family: var(--overline-footer);
+  font-size: var(--regular-description-size);
+  background-color: transparent;
+  letter-spacing: -0.01em;
+  line-height: 20px;
+  color: var(--shades-carbon);
+  text-align: left;
+  display: inline-block;
+  padding: 0;
+}
+.divider2,
+.search {
+  box-sizing: border-box;
+}
+.search {
+  flex: 1;
+  border-radius: var(--br-5xs);
+  background-color: var(--shades-dark-1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-base);
+  gap: var(--gap-3xs);
+  min-width: 64px;
+}
+.divider2 {
+  width: 1px;
+  height: 24px;
+  position: relative;
+  border-right: 1px solid var(--shades-dark-1);
+}
+.modeToggle8,
+.searchFrame {
+  display: flex;
+  align-items: flex-start;
+}
+.modeToggle8 {
+  height: 32px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0 0;
+  box-sizing: border-box;
+}
+.searchFrame {
+  flex: 1;
+  flex-direction: row;
+  justify-content: center;
+  gap: var(--gap-xs);
+  max-width: 100%;
+}
+.iconsun {
+  height: 16px;
+  width: 16px;
+  position: relative;
+}
+.lightMode {
+  height: 32px;
+  width: 32px;
+  border-radius: var(--br-5xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs);
+  box-sizing: border-box;
+}
+.iconmoon {
+  height: 16px;
+  width: 16px;
+  position: relative;
+}
+.darkMode,
+.modeToggle9 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.darkMode {
+  border-radius: var(--br-7xs);
+  background: linear-gradient(180deg, #25d695, #046c45);
+  padding: var(--padding-5xs);
+}
+.modeToggle9 {
+  border-radius: var(--br-5xs);
+  background-color: var(--shades-dark-1);
+  overflow: hidden;
+  padding: var(--padding-9xs);
+}
+.tabInstance {
+  width: 679px;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.frameDivider,
+.navBarFrame,
+.tabInstance {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameDivider {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.navBarFrame {
+  justify-content: flex-start;
+  padding: 0 var(--padding-5xl);
+}
+.divider3,
+.navBar,
+.navBarFrame {
+  align-self: stretch;
+  box-sizing: border-box;
+}
+.divider3 {
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--shades-dark-1);
+}
+.navBar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) 0 0;
+  gap: var(--gap-xs);
+  max-width: 100%;
+}
+@media screen and (max-width: 1050px) {
+  .frameDivider {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .searchFrame {
+    min-width: 100%;
+  }
+  .searchFrame,
+  .tabInstance {
+    flex-wrap: wrap;
+  }
+}

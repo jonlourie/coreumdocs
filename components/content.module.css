@@ -1,0 +1,420 @@
+.title1 {
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  line-height: 40px;
+  font-weight: 500;
+  font-family: inherit;
+  background: linear-gradient(180deg, #fff, #666);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.akinToMost,
+.blankLine,
+.blankLine1,
+.coreumLeveragesWebassembly,
+.inEssenceSmart,
+.title1 {
+  margin: 0;
+}
+.copy {
+  position: relative;
+  font-size: var(--regular-label-size);
+  letter-spacing: -0.01em;
+  line-height: 28px;
+  font-family: var(--overline-footer);
+}
+.copy,
+.header,
+.title {
+  align-self: stretch;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+  font-size: var(--sub-titles-subtitle-1-size);
+  color: var(--shades-light);
+}
+.header {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  line-height: 30px;
+  font-weight: 500;
+  font-family: inherit;
+}
+.cosmwasm {
+  font-weight: 600;
+  font-family: var(--overline-footer);
+  color: var(--primary-green);
+}
+.blankLine2,
+.cosmwasmIsThePlatformCoreu,
+.itFormsAn {
+  margin: 0;
+}
+.copy2 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--regular-label-size);
+  letter-spacing: -0.01em;
+  line-height: 28px;
+  color: var(--shades-light);
+  font-family: var(--overline-footer);
+}
+.copy1 {
+  gap: var(--gap-xs);
+}
+.copy1,
+.section {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.header1 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  line-height: 30px;
+  font-weight: 500;
+  font-family: inherit;
+}
+.actorModel,
+.smartContractsProduce {
+  font-family: var(--overline-footer);
+  color: var(--shades-light);
+}
+.actorModel {
+  font-weight: 600;
+  color: var(--primary-green);
+}
+.blankLine3,
+.inEffectThese,
+.smartContractsProduceAndCo {
+  margin: 0;
+}
+.increasedSecurity {
+  font-weight: 600;
+  font-family: var(--overline-footer);
+  color: var(--primary-off-white);
+}
+.increasedSecuritySinceSma1 {
+  margin-bottom: 0;
+}
+.interBlockchainMessaging {
+  font-weight: 600;
+  font-family: var(--overline-footer);
+  color: var(--primary-off-white);
+}
+.messagesCanBe {
+  font-family: var(--overline-footer);
+  color: var(--shades-light);
+}
+.interBlockchainMessagingM {
+  margin-bottom: 0;
+}
+.easeOfSerialisation {
+  font-weight: 600;
+  font-family: var(--overline-footer);
+  color: var(--primary-off-white);
+}
+.messagesCanBe1 {
+  font-family: var(--overline-footer);
+  color: var(--shades-light);
+}
+.increasedSecuritySinceSma {
+  margin: 0;
+  font-size: inherit;
+  padding-left: var(--padding-2xl);
+}
+.copy4 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--regular-label-size);
+  letter-spacing: -0.01em;
+  line-height: 28px;
+  color: var(--shades-light);
+  font-family: var(--overline-footer);
+}
+.copy3 {
+  gap: var(--gap-xs);
+}
+.copy3,
+.section1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.header2 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  line-height: 30px;
+  font-weight: 500;
+  font-family: inherit;
+}
+.copy5,
+.copy6,
+.header2 {
+  align-self: stretch;
+}
+.copy6 {
+  position: relative;
+  font-size: var(--regular-label-size);
+  letter-spacing: -0.01em;
+  line-height: 28px;
+  font-family: var(--overline-footer);
+  color: var(--shades-light);
+}
+.copy5 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  font-size: var(--sub-titles-sub-title-2-size);
+}
+.contractCreation {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 22px;
+  font-weight: 500;
+}
+.copy8 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--regular-label-size);
+  letter-spacing: -0.01em;
+  line-height: 28px;
+  font-family: var(--overline-footer);
+  color: var(--shades-light);
+}
+.copy7,
+.subSection {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.copy7 {
+  gap: var(--gap-xs);
+}
+.subSection {
+  border-radius: var(--br-xs);
+}
+.contractInstantiation {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 22px;
+  font-weight: 500;
+}
+.copy10 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--regular-label-size);
+  letter-spacing: -0.01em;
+  line-height: 28px;
+  font-family: var(--overline-footer);
+  color: var(--shades-light);
+}
+.copy9,
+.subSection1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.copy9 {
+  gap: var(--gap-xs);
+}
+.subSection1 {
+  border-radius: var(--br-xs);
+}
+.contractExecution {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 22px;
+  font-weight: 500;
+}
+.copy12 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--regular-label-size);
+  letter-spacing: -0.01em;
+  line-height: 28px;
+  font-family: var(--overline-footer);
+  color: var(--shades-light);
+}
+.copy11 {
+  gap: var(--gap-xs);
+}
+.copy11,
+.section2,
+.subSection2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.subSection2 {
+  border-radius: var(--br-xs);
+}
+.section2 {
+  gap: var(--gap-21xl);
+  font-size: var(--sub-titles-sub-title-4-size);
+}
+.copy13,
+.header3 {
+  align-self: stretch;
+  position: relative;
+}
+.header3 {
+  margin: 0;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  line-height: 30px;
+  font-weight: 500;
+  font-family: inherit;
+}
+.copy13 {
+  font-size: var(--regular-label-size);
+  letter-spacing: -0.01em;
+  line-height: 28px;
+  font-family: var(--overline-footer);
+  color: var(--shades-light);
+}
+.subSection3 {
+  gap: var(--gap-xs);
+}
+.section3,
+.subSection3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.copy14,
+.header4 {
+  align-self: stretch;
+  position: relative;
+}
+.header4 {
+  margin: 0;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  line-height: 30px;
+  font-weight: 500;
+  font-family: inherit;
+}
+.copy14 {
+  font-size: var(--regular-label-size);
+  letter-spacing: -0.01em;
+  line-height: 28px;
+  font-family: var(--overline-footer);
+  color: var(--shades-light);
+}
+.subSection4 {
+  gap: var(--gap-xs);
+}
+.content,
+.section4,
+.subSection4 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.content {
+  padding: var(--padding-5xl) var(--padding-21xl) var(--padding-61xl);
+  gap: var(--gap-61xl);
+  text-align: left;
+  font-size: var(--sub-titles-sub-title-2-size);
+  color: var(--primary-off-white);
+  font-family: var(--regular-label);
+}
+@media screen and (max-width: 1200px) {
+  .content {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-15xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .title1 {
+    font-size: var(--font-size-7xl);
+    line-height: 32px;
+  }
+  .content {
+    gap: 40px 80px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .content {
+    padding-bottom: var(--padding-3xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .title1 {
+    font-size: var(--font-size-lgi);
+    line-height: 24px;
+  }
+  .title {
+    gap: 20px 40px;
+  }
+  .header {
+    font-size: var(--font-size-lgi);
+    line-height: 24px;
+  }
+  .section {
+    gap: 20px 40px;
+  }
+  .header1 {
+    font-size: var(--font-size-lgi);
+    line-height: 24px;
+  }
+  .section1 {
+    gap: 20px 40px;
+  }
+  .header2 {
+    font-size: var(--font-size-lgi);
+    line-height: 24px;
+  }
+  .section2 {
+    gap: 20px 40px;
+  }
+  .header3 {
+    font-size: var(--font-size-lgi);
+    line-height: 24px;
+  }
+  .section3 {
+    gap: 20px 40px;
+  }
+  .header4 {
+    font-size: var(--font-size-lgi);
+    line-height: 24px;
+  }
+  .section4 {
+    gap: 20px 40px;
+  }
+  .content {
+    gap: 20px 80px;
+  }
+}

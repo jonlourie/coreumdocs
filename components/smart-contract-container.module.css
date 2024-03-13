@@ -1,0 +1,32 @@
+.smartContracts {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 22px;
+  font-weight: 500;
+}
+.copy1 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--regular-label-size);
+  letter-spacing: -0.01em;
+  line-height: 28px;
+  font-family: var(--overline-footer);
+  color: var(--shades-light);
+}
+.copy,
+.subSection {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.subSection {
+  border-radius: var(--br-xs);
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--sub-titles-sub-title-4-size);
+  color: var(--primary-off-white);
+  font-family: var(--regular-label);
+}

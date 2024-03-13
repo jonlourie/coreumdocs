@@ -1,0 +1,31 @@
+.expandedMenu {
+  align-self: stretch;
+  border-left: 1px solid var(--shades-dark-1);
+  align-items: flex-start;
+  padding: 0 0 0 var(--padding-6xs);
+}
+.expandedMenu,
+.sidebarMenu,
+.tab {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.tab {
+  align-self: stretch;
+  align-items: flex-end;
+  padding: var(--padding-5xs) 0 var(--padding-5xs) var(--padding-base);
+}
+.sidebarMenu {
+  width: 276px;
+  overflow: hidden;
+  flex-shrink: 0;
+  align-items: flex-start;
+  padding: var(--padding-5xl) var(--padding-base) var(--padding-409xl);
+  box-sizing: border-box;
+}
+@media screen and (max-width: 1050px) {
+  .sidebarMenu {
+    display: none;
+  }
+}

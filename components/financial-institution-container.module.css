@@ -1,0 +1,355 @@
+.financialInstitutionB {
+  position: relative;
+  line-height: 7.26px;
+  font-weight: 600;
+}
+.cadIcon {
+  width: 7.3px;
+  position: relative;
+  height: 7.3px;
+  object-fit: cover;
+}
+.destination {
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 5.45px;
+  font-weight: 500;
+}
+.baseLayer,
+.financialInstitutionBParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.baseLayer {
+  border-radius: 1.21px;
+  background-color: var(--color-mediumseagreen-400);
+  padding: 0.6050575971603394px 2.4202303886413574px;
+  text-align: left;
+  font-size: var(--font-size-9xs-6);
+  color: var(--primary-green);
+}
+.financialInstitutionBParent {
+  align-self: stretch;
+  border-radius: 3.03px 3.03px 0 0;
+  gap: 3.630345582962036px;
+}
+.seperator1 {
+  align-self: stretch;
+  position: relative;
+  border-top: 0.3px solid var(--color-gray-200);
+  box-sizing: border-box;
+  height: 0.3px;
+}
+.createWallet {
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 7.26px;
+  font-weight: 500;
+}
+.frameChild {
+  width: 6.1px;
+  position: relative;
+  height: 6.1px;
+}
+.createWalletParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.walletAddress {
+  width: 152.2px;
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 5.45px;
+  display: inline-block;
+}
+.testcoreefa60d747eb5d7sqeu1hkk {
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 6.35px;
+}
+.iconcopyInactive {
+  width: 5.7px;
+  position: relative;
+  height: 5.7px;
+  object-fit: cover;
+}
+.stateLayer {
+  border-radius: 2.42px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2.4202303886413574px;
+  font-size: var(--font-size-8xs-2);
+  color: var(--light-1);
+}
+.frameGroup,
+.walletAddressParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.walletAddressParent {
+  gap: 1.2101151943206787px;
+  font-size: var(--font-size-9xs-6);
+  color: var(--shades-carbon);
+}
+.frameGroup {
+  border-radius: 3.03px;
+  background-color: var(--color-gray-300);
+  padding: 4.840460777282715px;
+  gap: 4.840460777282715px;
+}
+.fundWallet {
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 7.26px;
+  font-weight: 500;
+}
+.frameItem {
+  width: 6.1px;
+  position: relative;
+  height: 6.1px;
+}
+.fundWalletParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.coreBalance {
+  width: 152.2px;
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 5.45px;
+  display: inline-block;
+}
+.originalIcon {
+  width: 5.1px;
+  position: relative;
+  height: 5.1px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.div {
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 6.35px;
+}
+.coreBalanceParent,
+.stateLayer1 {
+  display: flex;
+  justify-content: flex-start;
+}
+.stateLayer1 {
+  border-radius: 2.42px;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.815172791481018px;
+  font-size: var(--font-size-8xs-2);
+  color: var(--light-1);
+}
+.coreBalanceParent {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.2101151943206787px;
+}
+.usdBalance {
+  width: 152.2px;
+  letter-spacing: -0.01em;
+  line-height: 5.45px;
+  display: inline-block;
+}
+.div1,
+.usdBalance,
+.usdIcon {
+  position: relative;
+}
+.usdIcon {
+  width: 5.1px;
+  border-radius: 7.26px;
+  height: 5.1px;
+  object-fit: cover;
+}
+.div1 {
+  letter-spacing: -0.01em;
+  line-height: 6.35px;
+}
+.stateLayer2 {
+  border-radius: 2.42px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2.4202303886413574px;
+  font-size: var(--font-size-8xs-2);
+  color: var(--light-1);
+}
+.frameContainer,
+.frameDiv,
+.usdBalanceParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.usdBalanceParent {
+  flex: 1;
+  flex-direction: column;
+  gap: 1.2101151943206787px;
+}
+.frameContainer,
+.frameDiv {
+  align-self: stretch;
+  gap: 4.840460777282715px;
+}
+.frameDiv {
+  flex-direction: row;
+  font-size: var(--font-size-9xs-6);
+  color: var(--shades-carbon);
+}
+.frameContainer {
+  border-radius: 3.03px;
+  background-color: var(--color-gray-300);
+  flex-direction: column;
+  padding: 4.840460777282715px;
+}
+.generateKeys {
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 7.26px;
+  font-weight: 500;
+}
+.frameInner {
+  width: 6.1px;
+  position: relative;
+  height: 6.1px;
+}
+.generateKeysParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.publicKey,
+.viewDetails {
+  position: relative;
+  letter-spacing: -0.01em;
+}
+.publicKey {
+  width: 152.2px;
+  line-height: 5.45px;
+  display: inline-block;
+}
+.viewDetails {
+  line-height: 6.35px;
+  background: linear-gradient(225deg, #25d695, #179b69);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.publicKeyParent,
+.stateLayer3 {
+  display: flex;
+  justify-content: flex-start;
+}
+.stateLayer3 {
+  border-radius: 2.42px;
+  flex-direction: row;
+  align-items: center;
+  font-size: var(--font-size-8xs-2);
+}
+.publicKeyParent {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.2101151943206787px;
+}
+.privateKey,
+.viewDetails1 {
+  position: relative;
+  letter-spacing: -0.01em;
+}
+.privateKey {
+  width: 152.2px;
+  line-height: 5.45px;
+  display: inline-block;
+}
+.viewDetails1 {
+  line-height: 6.35px;
+  background: linear-gradient(225deg, #25d695, #179b69);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.privateKeyParent,
+.stateLayer4 {
+  display: flex;
+  justify-content: flex-start;
+}
+.stateLayer4 {
+  border-radius: 2.42px;
+  flex-direction: row;
+  align-items: center;
+  font-size: var(--font-size-8xs-2);
+}
+.privateKeyParent {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.2101151943206787px;
+}
+.frameParent1,
+.frameParent2 {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: 4.840460777282715px;
+}
+.frameParent2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  font-size: var(--font-size-9xs-6);
+  color: var(--shades-carbon);
+}
+.frameParent1 {
+  border-radius: 3.03px;
+  background-color: var(--color-gray-300);
+  padding: 4.840460777282715px;
+}
+.frameParent,
+.frameParent1,
+.steps {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.steps {
+  align-self: stretch;
+  align-items: flex-start;
+  padding: 0 6.0505757331848145px;
+  gap: 3.630345582962036px;
+  text-align: left;
+  color: var(--shades-light);
+}
+.frameParent {
+  flex: 1;
+  border-radius: 3.03px;
+  background-color: var(--shades-dark-3);
+  align-items: center;
+  padding: 6.0505757331848145px 0;
+  gap: 6.0505757331848145px;
+  opacity: 0;
+  text-align: center;
+  font-size: var(--font-size-8xs-8);
+  color: var(--light-1);
+  font-family: var(--overline-footer);
+}
